@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Product 1</string>
+		<key>price</key>
+		<integer>100</integer>
+		<key>stock</key>
+		<integer>10</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Product 2</string>
+		<key>price</key>
+		<integer>115</integer>
+		<key>stock</key>
+		<integer>3</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Product 3</string>
+		<key>price</key>
+		<integer>130</integer>
+		<key>stock</key>
+		<integer>7</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Product 4</string>
+		<key>price</key>
+		<integer>140</integer>
+		<key>stock</key>
+		<integer>15</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Product 5</string>
+		<key>price</key>
+		<integer>170</integer>
+		<key>stock</key>
+		<integer>6</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Product 6</string>
+		<key>price</key>
+		<integer>1000</integer>
+		<key>stock</key>
+		<integer>2</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Product 7</string>
+		<key>price</key>
+		<integer>90</integer>
+		<key>stock</key>
+		<integer>50</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Product 8</string>
+		<key>price</key>
+		<integer>300</integer>
+		<key>stock</key>
+		<integer>10</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Product 9</string>
+		<key>price</key>
+		<integer>10</integer>
+		<key>stock</key>
+		<integer>100</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Product 10</string>
+		<key>price</key>
+		<integer>100</integer>
+		<key>stock</key>
+		<integer>10</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Product 11</string>
+		<key>price</key>
+		<integer>150</integer>
+		<key>stock</key>
+		<integer>15</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Product 12</string>
+		<key>price</key>
+		<integer>200</integer>
+		<key>stock</key>
+		<integer>18</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Product 13</string>
+		<key>price</key>
+		<integer>160</integer>
+		<key>stock</key>
+		<integer>80</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Product 14</string>
+		<key>price</key>
+		<integer>195</integer>
+		<key>stock</key>
+		<integer>19</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Product 15</string>
+		<key>price</key>
+		<integer>470</integer>
+		<key>stock</key>
+		<integer>8</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Product 16</string>
+		<key>price</key>
+		<integer>90</integer>
+		<key>stock</key>
+		<integer>11</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Product 17</string>
+		<key>price</key>
+		<integer>220</integer>
+		<key>stock</key>
+		<integer>18</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Product 18</string>
+		<key>price</key>
+		<integer>180</integer>
+		<key>stock</key>
+		<integer>18</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Product 19</string>
+		<key>price</key>
+		<integer>350</integer>
+		<key>stock</key>
+		<integer>35</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Product 20</string>
+		<key>price</key>
+		<integer>140</integer>
+		<key>stock</key>
+		<integer>60</integer>
+	</dict>
+</array>
+</plist>
