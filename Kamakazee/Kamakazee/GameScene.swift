@@ -120,6 +120,8 @@ class GameScene: SKScene {
                 var p = CGPoint(x:newX,y:newY)
                 var destination =  CGPoint(x: newX, y: 0)
                 
+                println(destination)
+                
                 createShip(p, destination: destination)
                 
                 moverSpeed = moverSpeed/moveFactor
