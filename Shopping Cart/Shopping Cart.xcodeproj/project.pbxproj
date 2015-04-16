@@ -16,7 +16,6 @@
 		994D06F31AB0A886008B8CBF /* Shopping_CartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994D06F21AB0A886008B8CBF /* Shopping_CartTests.swift */; };
 		994D06FE1AB0A9FA008B8CBF /* dummyDataProducts.plist in Resources */ = {isa = PBXBuildFile; fileRef = 994D06FD1AB0A9FA008B8CBF /* dummyDataProducts.plist */; };
 		994D07011AB0B2D9008B8CBF /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994D07001AB0B2D9008B8CBF /* ProductCell.swift */; };
-		994D07031AB0B77A008B8CBF /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994D07021AB0B77A008B8CBF /* Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +42,6 @@
 		994D06F21AB0A886008B8CBF /* Shopping_CartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shopping_CartTests.swift; sourceTree = "<group>"; };
 		994D06FD1AB0A9FA008B8CBF /* dummyDataProducts.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = dummyDataProducts.plist; sourceTree = "<group>"; };
 		994D07001AB0B2D9008B8CBF /* ProductCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
-		994D07021AB0B77A008B8CBF /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +87,6 @@
 				9905EA551AB1053A00B149D0 /* CartView.swift */,
 				994D06DE1AB0A886008B8CBF /* ViewController.swift */,
 				994D07001AB0B2D9008B8CBF /* ProductCell.swift */,
-				994D07021AB0B77A008B8CBF /* Product.swift */,
 				994D06E01AB0A886008B8CBF /* Main.storyboard */,
 				994D06E31AB0A886008B8CBF /* Images.xcassets */,
 				994D06E51AB0A886008B8CBF /* LaunchScreen.xib */,
@@ -235,7 +232,6 @@
 			files = (
 				9905EA561AB1053A00B149D0 /* CartView.swift in Sources */,
 				994D07011AB0B2D9008B8CBF /* ProductCell.swift in Sources */,
-				994D07031AB0B77A008B8CBF /* Product.swift in Sources */,
 				994D06DF1AB0A886008B8CBF /* ViewController.swift in Sources */,
 				994D06DD1AB0A886008B8CBF /* AppDelegate.swift in Sources */,
 			);

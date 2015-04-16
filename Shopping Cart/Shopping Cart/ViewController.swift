@@ -32,10 +32,10 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     
     override func viewWillAppear(animated: Bool) {
         tableView.reloadData()
-        buttonCart.title = "Cart \(cartCount)"
-        sumlabel.text = "$ \(cartSum)"
+        buttonCart.title = "Added \(cartCount)"
+        sumlabel.text = "Total $ \(cartSum)"
         
-        println(productsList.count, " +")
+        //println(productsList.count, " +")
         //println(cartCount)
         //println(cartSum)
     }
@@ -76,7 +76,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         
         cartCount += 1
         
-        buttonCart.title = "Cart \(cartCount)"
+        buttonCart.title = "Added \(cartCount)"
         
         let point = tableView.convertPoint(CGPoint(), fromView: sender)
         let index : NSIndexPath = tableView.indexPathForRowAtPoint(point)!
@@ -87,7 +87,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         
         let price : Float = (productsList[index.row]["price"] as Float)
         cartSum += price
-        sumlabel.text = "$ \(cartSum)"
+        sumlabel.text = "Total $ \(cartSum)"
         
         
         var product : NSMutableDictionary  = ["name":name, "price": price, "stock": 1,"index":index.row]
@@ -126,21 +126,12 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     }
     
     func loadPList(){
+        
         var pathToPList:NSString = NSBundle.mainBundle().pathForResource("dummyDataProducts", ofType: "plist")!
+        
         productsList = NSMutableArray(contentsOfFile: pathToPList)!
         
         
-        
-        /*
-        for albumInfo in productsList {
-            println(albumInfo["stock"] as Int)
-        }
-        */
-        
-        //defaultAlbumPlist[19]["stock"] as Int - 1
-        //productsList[19].setValue(20, forKey: "stock")
-        
-        //println(productsList[19]["stock"] as Int)
     }
     
     @IBAction func buttonCartTapped(sender: UIBarButtonItem) {

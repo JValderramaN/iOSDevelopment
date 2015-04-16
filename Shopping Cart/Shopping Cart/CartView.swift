@@ -9,6 +9,8 @@
 import UIKit
 
 
+
+//protol to retrieve info between views
 protocol writeValueBackDelegate{
     
     func writeValueBack(sum: Float, count: Int)
@@ -32,13 +34,22 @@ class CartView: UIViewController {
         
         // println(addedProducts)
 
+        
         // Do any additional setup after loading the view.
+
     }
     
     override func viewDidAppear(animated: Bool) {
         //println(addedProducts)
           //  println(cartCount)
             //println(cartSum)
+        
+        //advice
+        if addedProducts.count > 0 {
+            var alert = UIAlertController(title: "Advice", message: "Slide left over the row to delete the product", preferredStyle: UIAlertControllerStyle.Alert)
+            alert.addAction(UIAlertAction(title: "Ok!", style: UIAlertActionStyle.Default, handler: nil))
+            self.presentViewController(alert, animated: true, completion: nil)
+        }
     }
 
     override func didReceiveMemoryWarning() {
@@ -85,15 +96,13 @@ class CartView: UIViewController {
         cartSum -= price
         cartCount -= 1
         
-        //quitarle el index
+       
         let indexFound = exist(name)
         if indexFound != -1{
-            //increase in original list
             let stockList : Int = productsList[indexFound]["stock"] as Int
             //println(stockList)
             productsList[indexFound].setValue(stockList + 1, forKey: "stock")
         }else{
-            //debe crear uno desde cero porque el acrtual puede tener mas de 1
             //println(addedProducts.count," **")
             var prodc : NSMutableDictionary  = ["name":name, "price": price, "stock": 1]
             productsList.addObject(prodc)
@@ -119,7 +128,7 @@ class CartView: UIViewController {
         for i in 0...productsList.count-1{
             let product: AnyObject = productsList.objectAtIndex(i)
             if(product["name"] as String == pName){
-                println(product["name"] as String," - ",pName)
+                //println(product["name"] as String," - ",pName)
                 rsl = i
                 break
             }
